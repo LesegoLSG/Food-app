@@ -65,34 +65,34 @@ export const data = [
     },
     {
       id: 9,
-      name: 'Kale Salad',
-      category: 'salad',
+      name: 'Cheese,Russian and vienna',
+      category: 'kota',
       image:
-        'https://images.unsplash.com/photo-1515543237350-b3eea1ec8082?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://i.pinimg.com/564x/1b/45/96/1b45960ca8aada8f9fa46a599d9a0d8c.jpg',
       price: '$$',
     },
     {
       id: 10,
-      name: 'Ceasar Salad',
-      category: 'salad',
+      name: 'Toasted Kota',
+      category: 'kota',
       image:
-        'https://images.unsplash.com/photo-1546793665-c74683f339c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c2FsYWQlMjBjZWFzYXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://i.pinimg.com/564x/d7/f0/b5/d7f0b53a3882dfcb543591859f25d3f7.jpg',
       price: '$$$',
     },
     {
       id: 11,
-      name: 'Loaded Salad',
-      category: 'salad',
+      name: 'Chicken and Salads',
+      category: 'kota',
       image:
-        'https://images.unsplash.com/photo-1540420773420-3366772f4999?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYWR8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60',
+        'https://i.pinimg.com/564x/9a/b8/a1/9ab8a12b0ea00f2ccdde625daad3d0fb.jpg',
       price: '$$$$',
     },
     {
       id: 12,
-      name: 'Fruit Salad',
-      category: 'salad',
+      name: 'Chips and Russian',
+      category: 'kota',
       image:
-        'https://images.unsplash.com/photo-1564093497595-593b96d80180?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJ1aXQlMjBzYWxhZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60',
+        'https://i.pinimg.com/564x/64/86/93/648693ff924bcbd37ba461cc90ee6303.jpg',
       price: '$',
     },
     {
