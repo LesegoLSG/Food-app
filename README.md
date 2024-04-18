@@ -1,71 +1,56 @@
-# Getting Started with Create React App
+# Food Online Order System
+Welcome to the food online order system! This is a one page design for a system that allows users to browse a variety of food items,place orders, and have them delivered to their doorstep. Below is some information to help you get started with the system.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+* Features
+* Usage
+* How to run this project
+* Technologies used
+* Live Demo
+* contributions
+* License
 
-## Available Scripts
+# Features
+* **Browse by Category** :Users can browse food items categorized by food types such as bunny chow, Chicken, pizza, wings etc.
+* **Filter by price** :Allow users to filter food items based on price range.
+* **Responsive Design** :Ensure the system is optimized for various screen sizes and devices.
+* **User Feedback** :Provide feedback to users on their actions, such as successful item additions or search results.
+* **Interactive UI Elements** : Implemented interactive elements like buttons.
+*  **Local Storage** :  Utilize browser storage mechanisms like localStorage to store user preferences or shopping cart items.
+* **Error Handling** :Handle errors gracefully and provide meaningful error messages to users when needed.
 
-In the project directory, you can run:
+# Usage
+This is a frontend project with no backend, so users can be exposed to this amazing design. Users can only browser by category, filter by price and search items.
 
-### `npm start`
+# How to run the project
+1. **Clone the repository**: Clone this repository to your local machine using the following command:
+```
+ git Clone https://github.com/LesegoLSG/Food-app.git
+```
+2. **Import project** : After cloning import the cloned project to your favourite IDE (I used visual studio to develop this project).
+3. **Start the server** :Start the server using the following command:
+```
+npm start
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Live demo
+```
+Link to live demo: ....
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Technologies Used
+1. HTML & css
+2. React js
+3. Tailwind css
 
-### `npm test`
+# Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Fork the repository
+2. Create a new branch ( **git checkout -b feature** )
+3. Make your changes and commit them (**git commit -am 'Add new feature'**)
+4. Push to the branch (**git push origin feature**)
+5. Create a pull request
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Food-app
+# License
+This project is licensed under the MIT License.
