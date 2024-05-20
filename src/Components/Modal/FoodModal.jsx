@@ -28,7 +28,7 @@ const FoodModal = ({modalFood, closeModal}) => {
           }
       }
   };
-
+        //   Food modal display
   return (
     <div id="container" onClick={handleOnClose} className="fixed inset-0 bg-black bg-opacity-30 backdrop-blur-sm flex justify-center items-center">
             <div className="bg-white w-full md:w-[46rem] h-auto rounded-lg m-4 p-2 ">
@@ -50,6 +50,9 @@ const FoodModal = ({modalFood, closeModal}) => {
                 </div>
                 <div className="py-2">
                     <p>{modalFood.description}</p>
+                </div>
+                <div className="flex justify-start items-center">
+                    <h1 className="text-lg font-bold">Extras:</h1>
                 </div>
                    {/* Display radio buttons for extras */}
                    {extrasArray.map((extra, index) => (
