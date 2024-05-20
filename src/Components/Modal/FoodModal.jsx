@@ -42,7 +42,7 @@ const FoodModal = ({modalFood, closeModal}) => {
                     <h1 className="text-lg font-bold">{modalFood.name}</h1>
                 </div>
                 <div >
-                    <img src={modalFood.image} className="w-full h-[300px] object-cover rounded-lg"/>
+                    <img src={modalFood.image} className="w-full h-[300px] object-cover rounded-lg" alt="image"/>
                 </div>
                 
                 <div className="flex justify-start items-center">
