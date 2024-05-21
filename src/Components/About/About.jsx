@@ -11,9 +11,9 @@ const About = () => {
         <div>
             <h1 className="text-green-600 font-bold text-4xl text-center">Get to Know Us</h1>
         </div>
-        <div className="flex flex-col md:flex-row justify-center items-center ">
+        <div className="flex flex-col md:flex-row justify-center items-center">
           {/* Rotating image using css */}
-        <img src={AboutImage} alt="img" className="rotate"/> 
+        <img src={AboutImage} alt="img" className="rotate rounded-full"/> 
         <div className="mt-10">
             <h1 className="text-center text-lg font-semibold md:text-start mb-2" >Why <span className="text-green-600">Choose Us</span> ?</h1>
        
