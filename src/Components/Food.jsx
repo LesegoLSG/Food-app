@@ -39,7 +39,7 @@ const Food = () => {
             {/* Filter type */}
             <div >
                 <p className="font-bold text-gray-700">Filter Type</p>
-                <div className="flex justify-between flex-wrap">
+                <div className="flex flex-wrap gap-2">
                     <button onClick={() => setFood(data)} className="m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white">All</button>
                     <button onClick={() =>filterType("burger")} className="m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white">Burgers</button>
                     <button onClick={() =>filterType("pizza")} className="m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white">Pizza</button>
@@ -51,7 +51,7 @@ const Food = () => {
             {/* Filter Price */}
             <div>
                 <p className="font-bold text-gray-700">Filter Price</p>
-                <div className="flex justify-between flex-wrap">
+                <div className="flex flex-wrap gap-2">
                     <button onClick={() =>filterPrice(0,50)} className="m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white">0-50</button>
                     <button onClick={() =>filterPrice(51,100)} className="m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white">51-100</button>
                     <button onClick={() =>filterPrice(101,200)} className="m-1 border-green-600 text-green-600 hover:bg-green-600 hover:text-white">101-200</button>
